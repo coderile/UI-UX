@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assests/img/ml.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: table;
+}
+#showcase-content-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+p {
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+}
+#showcase {
+  background: linear-gradient(rgb(158, 118, 118, 0.7), rgba(0, 0, 0, 0.4)),
+    url("./assets/img/bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
